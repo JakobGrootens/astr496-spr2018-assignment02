@@ -1,0 +1,16 @@
+There are several folders containing the raw output of the same conditions
+with different integrations to compare their accuracy. 
+
+In "Comparison" I have combined gifs of those simulations to show animated comparisons, and made a labeled pdf with the three side by side.
+
+You can use ExampleRun.py to run a simulation of your own, with input from the 
+user to choose many options of your simulation.
+
+CreateRandomParticles.py will create random particles and store them into dataset.h5
+There is no user input, to modify you much change the file directly
+
+"_updated.h5" will contain the updated positions of particles after a run through ExampleRun 
+
+***IntegrationAnalysis.ipnb***
+Contains code to time different integrators and compare...
+
